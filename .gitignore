@@ -1,0 +1,16 @@
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+node_modules/
+
+# Do not commit raw dataset downloads.
+IoT_dataset/
+data/
+datasets/
+*.csv
+*.parquet
+*.feather
