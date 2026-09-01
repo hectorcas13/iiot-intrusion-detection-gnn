@@ -1,0 +1,10 @@
+model,accuracy,precision,recall,f1,roc_auc,family
+k-NN,0.9229,0.9723,0.8299,0.8954,0.9310,Classical baseline
+Logistic Regression,0.9005,0.9541,0.7878,0.8630,0.9129,Classical baseline
+QDA,0.8934,0.9709,0.7547,0.8492,0.9037,Classical baseline
+LDA,0.8915,0.9834,0.7399,0.8445,0.9018,Classical baseline
+Graph 2 - Dual-class affinity graph,0.8845,0.9210,0.7762,0.8424,0.9018,Graph analysis
+Naive Bayes,0.8841,0.9449,0.7525,0.8378,0.8826,Classical baseline
+Graph 3 - State co-occurrence graph,0.8800,0.9243,0.7606,0.8345,0.8857,Graph analysis
+Knowledge graph + Simple GNN,0.8789,0.9189,0.7629,0.8337,0.8952,GNN
+Graph 1 - Benign novelty graph,0.8214,0.9995,0.5514,0.7107,0.7756,Graph analysis
